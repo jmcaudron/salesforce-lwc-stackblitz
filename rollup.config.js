@@ -23,7 +23,7 @@ export default (args) => {
             args.watch &&
                 serve({
                     open: false,
-                    port: 3000,
+                    port: 5000,
                 }),
             args.watch && livereload(),
         ],
